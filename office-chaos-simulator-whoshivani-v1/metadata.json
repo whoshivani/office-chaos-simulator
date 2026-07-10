@@ -1,0 +1,6 @@
+{
+  "name": "Office Chaos Simulator",
+  "description": "A fun, polished 2D top-down office game where you cause harmless chaos with paper airplanes while avoiding the boss!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
