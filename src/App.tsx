@@ -9,6 +9,7 @@ import NewspaperCompletion from './components/NewspaperCompletion';
 import { soundManager } from './utils/sound';
 import { MAPS } from './data';
 import { Play, RotateCcw, Volume2, Shield, Eye, Flame, AlertTriangle, HelpCircle, BookOpen, Settings, Shirt, Award } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [gameState, setGameState] = useState<GameState>(GameState.MENU);
@@ -698,6 +699,7 @@ export default function App() {
         )}
 
       </main>
+      <Analytics />
     </div>
   );
 }
